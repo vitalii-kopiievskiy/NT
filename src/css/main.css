@@ -1,12 +1,10 @@
 body,
 a {
   font-family: 'Open Sans';
-  color: white;
-}
+  color: white; }
 
 :active,
 :hover,
 :focus {
   outline: 0;
-  outline-offset: 0;
-}
+  outline-offset: 0; }
