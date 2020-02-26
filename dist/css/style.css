@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400,500&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -8464,9 +8464,6 @@ body {
   margin-top: 20px;
   padding-bottom: 291px; }
 
-.btn__app {
-  fill: red; }
-
 .slider {
   padding-bottom: 187px; }
   .slider__title {
@@ -8622,3 +8619,52 @@ body {
     letter-spacing: 0.4px;
     color: #adadad;
     letter-spacing: 0.5px; }
+
+.set {
+  padding-bottom: 255px; }
+  .set__title {
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center; }
+  .set__subtitle {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.630667px; }
+  .set__item {
+    padding-left: 68px;
+    margin-top: 71px; }
+    .set__item--center {
+      padding-left: 107px; }
+    .set__item--right {
+      padding-left: 163px; }
+    .set__item:before {
+      content: '';
+      position: absolute;
+      width: 47px;
+      height: 47px;
+      background-color: #c4c4c4;
+      border-radius: 50%;
+      margin-left: -69px;
+      margin-top: -5px; }
+  .set__txt {
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.487333px;
+    color: #adadad;
+    margin-right: 25px; }
+
+.footer__title {
+  margin-top: 4px;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center; }
+
+.footer__buttons {
+  margin-top: 56px;
+  padding-bottom: 150px; }
