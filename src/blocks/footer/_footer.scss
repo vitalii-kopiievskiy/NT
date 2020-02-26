@@ -8,6 +8,18 @@
   }
   &__buttons {
     margin-top: 56px;
-    padding-bottom: 150px;
+    padding-bottom: 146px;
+  }
+}
+
+.copyright {
+  background-color: black;
+  &__title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #adadad;
+    padding-top: 45px;
+    padding-bottom: 40px;
   }
 }

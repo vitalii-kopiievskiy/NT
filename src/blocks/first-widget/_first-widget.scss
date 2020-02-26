@@ -1,5 +1,4 @@
 .first-widget {
-  //   background-color: #141414;
   &__title {
     font-weight: 600;
     font-size: 40px;
@@ -18,8 +17,8 @@
       height: 47px;
       background-color: #c4c4c4;
       border-radius: 50%;
-      left: 35px;
-      top: 170px;
+      margin-left: -67px;
+      margin-top: -5px;
     }
     &:nth-child(2) {
       margin-top: 58px;
