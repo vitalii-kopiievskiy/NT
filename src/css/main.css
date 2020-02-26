@@ -1,5 +1,5 @@
-body,
-a {
+body {
+  background-color: black;
   font-family: 'Open Sans';
   color: white; }
 
