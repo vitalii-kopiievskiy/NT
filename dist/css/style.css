@@ -8390,7 +8390,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   background-color: #141414;
-  background: url("../images/bg_mobile.jpg") 50% 0% no-repeat;
   font-family: 'Open Sans';
   color: white; }
 
@@ -8457,6 +8456,17 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.6px;
     color: white; }
+    @media screen and (max-width: 575px) {
+      .header__title {
+        font-size: 24px;
+        line-height: 33px;
+        text-align: left;
+        padding-left: 0;
+        margin-top: 29px;
+        letter-spacing: 0.3px;
+        margin-left: -2px; } }
+  .header__img {
+    margin-top: 38px; }
   .header__subtitle {
     margin-top: 93px;
     font-size: 18px;
@@ -8473,6 +8483,15 @@ body {
     line-height: 24px;
     color: white;
     text-align: center; }
+    @media screen and (max-width: 575px) {
+      .header__desc {
+        margin-top: 23px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 24px;
+        color: #f7f3f2;
+        text-align: left;
+        margin-left: -3px; } }
   .header__buttons {
     margin-top: 20px;
     padding-bottom: 291px; }
