@@ -8390,6 +8390,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   background-color: #141414;
+  background: url("../images/bg_mobile.jpg") 50% 0% no-repeat;
   font-family: 'Open Sans';
   color: white; }
 
@@ -8409,9 +8410,17 @@ body {
   height: 43px;
   background-color: #c4c4c4;
   border-radius: 50%; }
+  @media screen and (max-width: 575px) {
+    .nav__el {
+      width: 40px;
+      height: 40px; } }
 
 .nav__img {
   margin-left: 12px; }
+  @media screen and (max-width: 575px) {
+    .nav__img {
+      margin-left: 8px;
+      margin-top: 5px; } }
 
 .nav__list {
   margin-left: 40px; }
@@ -8430,8 +8439,14 @@ body {
 
 .header {
   background: url("../images/header/header.png") 50% 0%/cover no-repeat; }
+  @media screen and (max-width: 575px) {
+    .header {
+      background-image: none; } }
   .header__nav {
     padding-top: 32px; }
+    @media screen and (max-width: 575px) {
+      .header__nav {
+        padding-top: 0; } }
   .header__title {
     padding-left: 3px;
     margin-top: 158px;
@@ -8461,6 +8476,136 @@ body {
   .header__buttons {
     margin-top: 20px;
     padding-bottom: 291px; }
+
+#checkbox {
+  visibility: hidden; }
+
+.burger__el {
+  content: '';
+  display: block;
+  width: 39px;
+  height: 39px;
+  background-color: #c4c4c4;
+  border-radius: 50%; }
+
+.burger__item {
+  margin-top: 35px; }
+
+.burger__item:nth-child(2) {
+  margin-top: 79px; }
+
+.burger__logo {
+  margin-top: 22px; }
+
+.burger__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 34px;
+  right: 29px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 2; }
+
+.burger__list {
+  display: none;
+  position: absolute;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  left: -100%;
+  width: 100%;
+  height: 393px;
+  top: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #141414;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.burger__link {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+  .burger__link:hover {
+    color: #0dc78f;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    text-decoration: none; }
+
+.burger__button > span,
+.burger__button > span::before,
+.burger__button > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  z-index: 2; }
+
+.burger__button > span::before {
+  content: '';
+  top: -6px; }
+
+.burger__button > span::after {
+  content: '';
+  top: 6px; }
+
+#checkbox ~ .burger__button > span {
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  transition: -webkit-transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  -o-transition: transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  transition: transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  transition: transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71), -webkit-transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71); }
+
+#checkbox:checked ~ .burger__button > span {
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  transition: -webkit-transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  -o-transition: transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  transition: transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71);
+  transition: transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71), -webkit-transform 0.2s cubic-bezier(0.08, 0.81, 0.87, 0.71); }
+
+#checkbox:checked ~ .burger__button > span::before {
+  top: 0;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg); }
+
+#checkbox:checked ~ .burger__button > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+#checkbox:checked ~ .burger__list {
+  display: block;
+  left: 0;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear; }
+
+#checkbox:checked ~ .burger__list {
+  visibility: visible; }
 
 .slider {
   padding-bottom: 187px; }
