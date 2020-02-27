@@ -3,6 +3,13 @@
     margin-top: -3px;
   }
 
+  &__img {
+    margin-left: 12px;
+    @media screen and (max-width: 575px) {
+      margin-top: 5px;
+    }
+  }
+
   &__el {
     content: '';
     display: block;
@@ -20,7 +27,6 @@
   &__img {
     margin-left: 12px;
     @media screen and (max-width: 575px) {
-      // margin-left: 8px;
       margin-top: 5px;
     }
   }
