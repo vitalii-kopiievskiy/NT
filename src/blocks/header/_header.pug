@@ -39,8 +39,16 @@ header.header
                         h1.header__title Lorem ipsum dolor sit amet, consectetur adipiscing elit
                         img.header__img.d-block.d-sm-none(src="images/header/header_mob.png", alt="mobile image")
                         p.header__desc Sed do eiusmod tempor incididunt ut labore et dolore
+                    .col-6.col-md-12    
                         p.header__subtitle Lorem ipsum:
-                    .col-5.mx-auto
+                    .col-6.d-block.d-md-none
+                        .header-mobile__buttons.ml-1.d-flex.justify-content-between
+                            a.header-mobile__btn(href='javascript:void(0)')
+                                i.fab.fa-google-play
+                            a.header-mobile__btn.mr-n1(href='javascript:void(0)')
+                                i.fab.fa-apple
+                                
+                    .col-5.mx-auto.d-none.d-md-block
                         .header__buttons.d-flex.justify-content-around
                             a.header__btn.ml-1(href='javascript:void(0)')
                                 img.header__img(src="images/header/app.svg", alt="app store")
