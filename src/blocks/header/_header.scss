@@ -5,6 +5,7 @@
 
   &__img {
     margin-left: 12px;
+
     @media screen and (max-width: 575px) {
       margin-top: 5px;
     }
@@ -83,7 +84,7 @@
   }
 
   &__img {
-    margin-top: 38px;
+    margin-top: 36px;
   }
   &__subtitle {
     margin-top: 79px;
@@ -92,7 +93,6 @@
     text-align: center;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 0.8px;
 
     @media screen and (max-width: 575px) {
       font-size: 18px;
@@ -104,7 +104,7 @@
     }
   }
   &__desc {
-    margin-top: 33px;
+    margin-top: 34px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
@@ -186,6 +186,7 @@
     cursor: pointer;
     z-index: 2;
   }
+
   &__list {
     display: none;
 

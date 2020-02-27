@@ -8503,15 +8503,14 @@ body {
         letter-spacing: 0.3px;
         margin-left: 2px; } }
   .header__img {
-    margin-top: 38px; }
+    margin-top: 36px; }
   .header__subtitle {
     margin-top: 79px;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    letter-spacing: 0.8px; }
+    color: white; }
     @media screen and (max-width: 575px) {
       .header__subtitle {
         font-size: 18px;
@@ -8521,7 +8520,7 @@ body {
         letter-spacing: 0;
         font-weight: 600; } }
   .header__desc {
-    margin-top: 33px;
+    margin-top: 34px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
@@ -8695,7 +8694,7 @@ body {
   visibility: visible; }
 
 .slider {
-  padding-bottom: 187px;
+  padding-bottom: 190px;
   color: #fbfbfb; }
   @media screen and (max-width: 575px) {
     .slider {
@@ -8782,7 +8781,8 @@ body {
 .first-widget__title {
   font-weight: 600;
   font-size: 40px;
-  line-height: 54px; }
+  line-height: 54px;
+  margin-top: 2px; }
   @media screen and (max-width: 575px) {
     .first-widget__title {
       font-size: 24px;
@@ -8795,7 +8795,7 @@ body {
 
 .first-widget__item {
   margin-left: 70px;
-  margin-top: 63px;
+  margin-top: 61px;
   margin-right: 100px; }
   @media screen and (max-width: 575px) {
     .first-widget__item {
@@ -8827,7 +8827,7 @@ body {
       letter-spacing: 0.3px; } }
 
 .first-widget__txt {
-  margin-top: 22px;
+  margin-top: 20px;
   font-weight: 300;
   font-size: 17px;
   line-height: 23px;
@@ -8839,7 +8839,7 @@ body {
 
 .first-widget__btn {
   margin-left: 3px;
-  margin-top: 85px;
+  margin-top: 88px;
   margin-bottom: 266px;
   font-family: 'Proxima Nova';
   display: block;
@@ -8996,7 +8996,6 @@ body {
         .set__item:before {
           margin-left: -67px; } }
   .set__txt {
-    padding-top: 5px;
     font-weight: 300;
     font-size: 17px;
     line-height: 23px;
@@ -9008,7 +9007,7 @@ body {
         margin-right: 0; } }
 
 .footer__title {
-  margin-top: 4px;
+  margin-top: 7px;
   font-weight: 300;
   font-size: 35px;
   line-height: 48px;
@@ -9019,8 +9018,8 @@ body {
       line-height: 33px; } }
 
 .footer__buttons {
-  margin-top: 56px;
-  padding-bottom: 146px; }
+  margin-top: 54px;
+  padding-bottom: 150px; }
 
 .footer-mobile__buttons {
   margin-top: 53px;
@@ -9054,7 +9053,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #adadad;
-    padding-top: 45px;
+    padding-top: 48px;
     padding-bottom: 40px;
     text-align: center; }
     @media screen and (max-width: 575px) {
@@ -9063,5 +9062,3 @@ body {
         font-size: 14px;
         line-height: 24px;
         padding-right: 16px; } }
-
-/*# sourceMappingURL=style.css.map */
