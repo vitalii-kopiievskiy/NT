@@ -5,15 +5,43 @@
     font-size: 35px;
     line-height: 48px;
     text-align: center;
+    @media screen and (max-width: 575px) {
+      font-size: 24px;
+      line-height: 33px;
+    }
   }
   &__buttons {
     margin-top: 56px;
     padding-bottom: 146px;
   }
+  &-mobile__buttons {
+    margin-top: 53px;
+    padding-bottom: 100px;
+  }
+
+  &-mobile__btn {
+    width: 50px;
+    height: 50px;
+    display: block;
+    font-size: 29px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    transition: all 0.3s linear;
+    text-align: center;
+
+    &:hover {
+      transition: all 0.3s linear;
+      color: #0dc78f;
+      border: 1px solid #0dc78f;
+    }
+  }
 }
 
 .copyright {
   background-color: black;
+
   &__title {
     font-weight: 300;
     font-size: 14px;
@@ -21,5 +49,13 @@
     color: #adadad;
     padding-top: 45px;
     padding-bottom: 40px;
+    text-align: center;
+
+    @media screen and (max-width: 575px) {
+      text-align: left;
+      font-size: 14px;
+      line-height: 24px;
+      padding-right: 16px;
+    }
   }
 }
