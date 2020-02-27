@@ -8450,7 +8450,8 @@ body {
   @media screen and (max-width: 575px) {
     .nav__el {
       width: 40px;
-      height: 40px; } }
+      height: 40px;
+      margin-left: 11px; } }
 
 .nav__img {
   margin-left: 12px; }
@@ -8501,7 +8502,7 @@ body {
         padding-left: 0;
         margin-top: 27px;
         letter-spacing: 0.3px;
-        margin-left: 2px; } }
+        margin-left: 10px; } }
   .header__img {
     margin-top: 36px; }
   .header__subtitle {
@@ -8592,7 +8593,7 @@ body {
   align-items: center;
   position: absolute;
   top: 34px;
-  right: 20px;
+  right: 29px;
   width: 20px;
   height: 20px;
   cursor: pointer;
