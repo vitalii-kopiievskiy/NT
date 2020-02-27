@@ -8508,10 +8508,9 @@ body {
         line-height: 25px;
         margin-top: 38px;
         text-align: left;
-        letter-spacing: 0;
         font-weight: 600; } }
   .header__desc {
-    margin-top: 34px;
+    margin-top: 35px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 24px;
@@ -8520,18 +8519,15 @@ body {
     text-align: center; }
     @media screen and (max-width: 575px) {
       .header__desc {
-        margin-top: 19px;
+        margin-top: 22px;
         font-weight: 300;
         font-size: 18px;
         line-height: 24px;
         color: #f7f3f2;
-        text-align: left;
-        margin-left: 2px; } }
+        text-align: left; } }
   .header__buttons {
     margin-top: -19px;
     padding-bottom: 291px; }
-  .header-mobile__buttons {
-    margin-left: 17px; }
   .header-mobile__btn {
     margin-top: 26px;
     width: 50px;
@@ -8698,7 +8694,7 @@ body {
     color: #fbfbfb; }
     @media screen and (max-width: 575px) {
       .slider__title {
-        padding-top: 96px;
+        padding-top: 99px;
         font-size: 24px;
         line-height: 33px; } }
   .slider__block {
@@ -8802,8 +8798,11 @@ body {
     margin-top: -5px; }
   .first-widget__item:nth-child(2) {
     margin-top: 58px; }
+    @media screen and (max-width: 575px) {
+      .first-widget__item:nth-child(2) {
+        margin-top: 63px; } }
   .first-widget__item:last-child {
-    margin-top: 55px; }
+    margin-top: 58px; }
 
 .first-widget__subtitle {
   font-weight: 500;
@@ -8826,7 +8825,9 @@ body {
   letter-spacing: 0.5px; }
   @media screen and (max-width: 575px) {
     .first-widget__txt {
-      margin-left: 2px; } }
+      margin-left: 2px;
+      margin-top: 22px;
+      margin-right: 17px; } }
 
 .first-widget__btn {
   margin-left: 3px;
@@ -8911,6 +8912,9 @@ body {
           margin-top: 58px; } }
     .second-widget__item:last-child {
       margin-top: 55px; }
+      @media screen and (max-width: 575px) {
+        .second-widget__item:last-child {
+          margin-top: 61px; } }
   .second-widget__subtitle {
     font-weight: 500;
     font-size: 22px;
@@ -8929,6 +8933,9 @@ body {
     letter-spacing: 0.4px;
     color: #adadad;
     letter-spacing: 0.5px; }
+    @media screen and (max-width: 575px) {
+      .second-widget__txt {
+        margin-right: 17px; } }
 
 .set {
   padding-bottom: 255px; }
@@ -8945,7 +8952,7 @@ body {
         font-size: 24px;
         line-height: 33px;
         text-align: left;
-        margin-top: 81px;
+        margin-top: 84px;
         margin-bottom: 64px; } }
   .set__subtitle {
     font-family: 'Roboto';
@@ -8959,7 +8966,8 @@ body {
     @media screen and (max-width: 575px) {
       .set__item {
         padding-left: 68px;
-        margin-top: 0; } }
+        margin-top: 0;
+        margin-right: 20px; } }
     .set__item--center {
       padding-left: 107px; }
       @media screen and (max-width: 575px) {
@@ -8995,7 +9003,8 @@ body {
     margin-right: 25px; }
     @media screen and (max-width: 575px) {
       .set__txt {
-        margin-right: 0; } }
+        margin-right: 0;
+        margin-top: 15px; } }
 
 .footer__title {
   margin-top: 7px;

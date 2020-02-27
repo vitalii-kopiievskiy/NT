@@ -36,9 +36,12 @@
     }
     &:nth-child(2) {
       margin-top: 58px;
+      @media screen and (max-width: 575px) {
+        margin-top: 63px;
+      }
     }
     &:last-child {
-      margin-top: 55px;
+      margin-top: 58px;
     }
   }
   &__subtitle {
@@ -63,6 +66,8 @@
 
     @media screen and (max-width: 575px) {
       margin-left: 2px;
+      margin-top: 22px;
+      margin-right: 17px;
     }
   }
 

@@ -55,6 +55,9 @@
     }
     &:last-child {
       margin-top: 55px;
+      @media screen and (max-width: 575px) {
+        margin-top: 61px;
+      }
     }
   }
   &__subtitle {
@@ -77,5 +80,8 @@
     letter-spacing: 0.4px;
     color: #adadad;
     letter-spacing: 0.5px;
+    @media screen and (max-width: 575px) {
+      margin-right: 17px;
+    }
   }
 }
