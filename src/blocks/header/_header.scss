@@ -4,11 +4,7 @@
   }
 
   &__img {
-    margin-left: 12px;
-
-    @media screen and (max-width: 575px) {
-      margin-top: 5px;
-    }
+    margin-left: 2px;
   }
 
   &__el {
@@ -23,13 +19,6 @@
       width: 40px;
       height: 40px;
       margin-left: 11px;
-    }
-  }
-
-  &__img {
-    margin-left: 12px;
-    @media screen and (max-width: 575px) {
-      margin-top: 5px;
     }
   }
 
@@ -80,7 +69,6 @@
       padding-left: 0;
       margin-top: 27px;
       letter-spacing: 0.3px;
-      margin-left: 10px;
     }
   }
 
