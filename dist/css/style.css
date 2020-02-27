@@ -8866,6 +8866,7 @@ body {
   @media screen and (max-width: 575px) {
     .first-widget__img {
       right: 0;
+      max-width: 100%;
       margin-top: 126px; } }
 
 .second-widget {
