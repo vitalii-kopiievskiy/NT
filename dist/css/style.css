@@ -8691,6 +8691,9 @@ body {
 .slider {
   padding-bottom: 187px;
   color: #fbfbfb; }
+  @media screen and (max-width: 575px) {
+    .slider {
+      padding-bottom: 80px; } }
   .slider__title {
     padding-top: 129px;
     font-weight: 300;
@@ -8718,7 +8721,7 @@ body {
     color: black;
     border-radius: 50%;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 14px;
     margin-top: -12px; }
     @media screen and (max-width: 575px) {
       .slider__content:before, .slider__content:after {
@@ -8777,12 +8780,20 @@ body {
   @media screen and (max-width: 575px) {
     .first-widget__title {
       font-size: 24px;
-      line-height: 33px; } }
+      line-height: 33px;
+      margin-left: 5px; } }
+
+@media screen and (max-width: 575px) {
+  .first-widget__items {
+    margin-top: 472px; } }
 
 .first-widget__item {
   margin-left: 70px;
   margin-top: 63px;
   margin-right: 100px; }
+  @media screen and (max-width: 575px) {
+    .first-widget__item {
+      margin-right: 0px; } }
   .first-widget__item:before {
     content: '';
     position: absolute;
@@ -8803,15 +8814,22 @@ body {
   line-height: 26px;
   letter-spacing: 0.5px;
   color: #fbfbfb; }
+  @media screen and (max-width: 575px) {
+    .first-widget__subtitle {
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0.3px; } }
 
 .first-widget__txt {
   margin-top: 22px;
   font-weight: 300;
   font-size: 17px;
   line-height: 23px;
-  letter-spacing: 0.4px;
   color: #adadad;
   letter-spacing: 0.5px; }
+  @media screen and (max-width: 575px) {
+    .first-widget__txt {
+      margin-left: 2px; } }
 
 .first-widget__btn {
   margin-left: 3px;
@@ -8831,6 +8849,9 @@ body {
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear; }
+  @media screen and (max-width: 575px) {
+    .first-widget__btn {
+      margin-top: 60px; } }
   .first-widget__btn:hover {
     color: #0dc78f;
     background-color: #fff;
@@ -8842,9 +8863,11 @@ body {
 .first-widget__img {
   right: 0;
   width: auto;
-  position: absolute;
-  background-color: blue;
-  z-index: 100; }
+  position: absolute; }
+  @media screen and (max-width: 575px) {
+    .first-widget__img {
+      left: 20px;
+      margin-top: 126px; } }
 
 .second-widget {
   padding-bottom: 322px; }

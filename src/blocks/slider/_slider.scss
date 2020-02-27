@@ -1,6 +1,9 @@
 .slider {
   padding-bottom: 187px;
   color: $mainColor;
+  @media screen and (max-width: 575px) {
+    padding-bottom: 80px;
+  }
   &__title {
     padding-top: 129px;
     font-weight: 300;
@@ -35,7 +38,7 @@
     color: black;
     border-radius: 50%;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 14px;
     margin-top: -12px;
 
     @media screen and (max-width: 575px) {
