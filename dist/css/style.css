@@ -8861,7 +8861,7 @@ body {
 
 .first-widget__img {
   right: 0;
-  width: auto;
+  max-width: 50%;
   position: absolute; }
   @media screen and (max-width: 575px) {
     .first-widget__img {
