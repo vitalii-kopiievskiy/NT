@@ -8689,15 +8689,24 @@ body {
   visibility: visible; }
 
 .slider {
-  padding-bottom: 187px; }
+  padding-bottom: 187px;
+  color: #fbfbfb; }
   .slider__title {
     padding-top: 129px;
     font-weight: 300;
     font-size: 35px;
     line-height: 48px;
     color: #fbfbfb; }
+    @media screen and (max-width: 575px) {
+      .slider__title {
+        padding-top: 96px;
+        font-size: 24px;
+        line-height: 33px; } }
   .slider__block {
     padding-top: 104px; }
+    @media screen and (max-width: 575px) {
+      .slider__block {
+        padding-top: 42px; } }
   .slider__content {
     position: relative; }
   .slider__content:before, .slider__content:after {
@@ -8711,26 +8720,55 @@ body {
     text-align: center;
     padding-top: 12px;
     margin-top: -12px; }
+    @media screen and (max-width: 575px) {
+      .slider__content:before, .slider__content:after {
+        width: 0;
+        height: 0;
+        color: #fbfbfb;
+        padding-top: 0;
+        margin-top: 5px;
+        top: 0; } }
   .slider__content:before {
     content: '\f053';
     margin-left: -15px; }
+    @media screen and (max-width: 575px) {
+      .slider__content:before {
+        margin-left: 2px;
+        left: 0; } }
   .slider__content:hover:before, .slider__content:hover:after {
     cursor: pointer; }
   .slider__content:after {
     content: '\f054';
     right: 0; }
+    @media screen and (max-width: 575px) {
+      .slider__content:after {
+        right: 10px; } }
   .slider__desc {
     padding-left: 143px;
     font-style: italic;
     font-size: 18px;
     line-height: 33px;
     letter-spacing: -0.8px; }
+    @media screen and (max-width: 575px) {
+      .slider__desc {
+        font-size: 18px;
+        line-height: 34px;
+        padding-left: 0;
+        margin-left: -5px; } }
   .slider__txt {
     padding-left: 143px;
     padding-right: 170px;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.401333px; }
+    @media screen and (max-width: 575px) {
+      .slider__txt {
+        margin-left: -5px;
+        margin-top: -5px;
+        font-size: 14px;
+        line-height: 19px;
+        padding-left: 0;
+        padding-right: 0; } }
 
 .first-widget__title {
   font-weight: 600;
