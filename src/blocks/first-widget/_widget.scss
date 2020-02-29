@@ -110,8 +110,16 @@
   }
   &-first__img {
     position: absolute;
-    height: 740px;
     width: 934px;
+
+    @media screen and (max-width: 991px) {
+      position: static;
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: 575px) {
+      position: absolute;
+      margin-bottom: 20px;
+    }
   }
 }
 

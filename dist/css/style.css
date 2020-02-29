@@ -9575,8 +9575,15 @@ body {
 
 .widget-first__img {
   position: absolute;
-  height: 740px;
   width: 934px; }
+  @media screen and (max-width: 991px) {
+    .widget-first__img {
+      position: static;
+      margin-bottom: 20px; } }
+  @media screen and (max-width: 575px) {
+    .widget-first__img {
+      position: absolute;
+      margin-bottom: 20px; } }
 
 .second-widget__block {
   margin-top: 56px;
