@@ -128,9 +128,14 @@
   margin-left: 104px;
   padding-bottom: 458px;
 
+  @media screen and (max-width: 991px) {
+    padding-bottom: 190px;
+    margin-left: 0;
+  }
+
   @media screen and (max-width: 575px) {
     margin-top: 0;
-    margin-left: 0;
+
     padding-bottom: 0;
   }
 }
