@@ -1,4 +1,4 @@
-.first-widget {
+.widget {
   &__title {
     font-weight: 600;
     font-size: 40px;
@@ -102,13 +102,22 @@
   }
 
   &__img {
-    right: 0;
-    max-width: 50%;
-    position: absolute;
     @media screen and (max-width: 575px) {
       right: 0;
       max-width: 100%;
       margin-top: 126px;
     }
+  }
+}
+
+.second-widget__block {
+  margin-top: 56px;
+  margin-left: 104px;
+  padding-bottom: 458px;
+
+  @media screen and (max-width: 575px) {
+    margin-top: 0;
+    margin-left: 0;
+    padding-bottom: 0;
   }
 }

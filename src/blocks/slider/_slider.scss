@@ -80,6 +80,9 @@
     line-height: 33px;
     letter-spacing: -0.8px;
 
+    @media screen and (max-width: 991px) {
+      padding-left: 102px;
+    }
     @media screen and (max-width: 575px) {
       font-size: 18px;
       line-height: 34px;
@@ -93,6 +96,11 @@
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0.401333px;
+
+    @media screen and (max-width: 991px) {
+      padding-left: 102px;
+    }
+
     @media screen and (max-width: 575px) {
       margin-left: -5px;
       margin-top: -5px;
