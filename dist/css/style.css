@@ -9589,7 +9589,7 @@ body {
       padding-bottom: 0; } }
 
 .set {
-  padding-bottom: 255px; }
+  padding-bottom: 219px; }
   @media screen and (max-width: 575px) {
     .set {
       padding-bottom: 77px; } }
@@ -9611,28 +9611,18 @@ body {
     font-size: 22px;
     line-height: 26px;
     letter-spacing: 0.630667px; }
+  .set__items {
+    margin-left: 103px; }
   .set__item {
-    padding-left: 68px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 22%;
+    flex: 0 0 22%;
     margin-top: 71px; }
     @media screen and (max-width: 575px) {
       .set__item {
         padding-left: 68px;
         margin-top: 0;
         margin-right: 20px; } }
-    .set__item--center {
-      padding-left: 107px; }
-      @media screen and (max-width: 575px) {
-        .set__item--center {
-          padding-left: 68px;
-          margin-top: 38px;
-          margin-right: 1px; } }
-    .set__item--right {
-      padding-left: 163px; }
-      @media screen and (max-width: 575px) {
-        .set__item--right {
-          padding-left: 68px;
-          margin-top: 36px;
-          margin-left: 3px; } }
     .set__item:before {
       content: '';
       position: absolute;
@@ -9657,26 +9647,15 @@ body {
         margin-right: 0;
         margin-top: 15px; } }
 
-.footer__title {
-  margin-top: 7px;
-  font-weight: 300;
-  font-size: 35px;
-  line-height: 48px;
-  text-align: center; }
-  @media screen and (max-width: 575px) {
-    .footer__title {
-      font-size: 24px;
-      line-height: 33px; } }
-
-.footer__buttons {
+.get__buttons {
   margin-top: 54px;
   padding-bottom: 150px; }
 
-.footer-mobile__buttons {
+.get-mobile__buttons {
   margin-top: 53px;
   padding-bottom: 100px; }
 
-.footer-mobile__btn {
+.get-mobile__btn {
   width: 50px;
   height: 50px;
   display: block;
@@ -9690,7 +9669,7 @@ body {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   text-align: center; }
-  .footer-mobile__btn:hover {
+  .get-mobile__btn:hover {
     -webkit-transition: all 0.3s linear;
     -o-transition: all 0.3s linear;
     transition: all 0.3s linear;
