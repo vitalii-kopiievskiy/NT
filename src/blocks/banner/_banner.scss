@@ -68,7 +68,9 @@
     margin-top: -19px;
     padding-bottom: 291px;
   }
-
+  &__btn:nth-child(1) {
+    margin-right: 30px;
+  }
   &-mobile__btn {
     margin-top: 26px;
     width: 50px;
