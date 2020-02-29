@@ -9573,6 +9573,11 @@ body {
     max-width: 100%;
     margin-top: 126px; } }
 
+.widget-first__img {
+  position: absolute;
+  height: 740px;
+  width: 934px; }
+
 .second-widget__block {
   margin-top: 56px;
   margin-left: 104px;
