@@ -23,11 +23,13 @@
       line-height: 33px;
       text-align: left;
       padding-left: 0;
-      margin-top: 27px;
+      margin-top: 90px;
       letter-spacing: 0.3px;
     }
   }
-
+  &__image {
+    margin-top: 44px;
+  }
   &__subtitle {
     margin-top: 87px;
     font-size: 18px;
@@ -42,6 +44,7 @@
       margin-top: 38px;
       text-align: left;
       font-weight: 600;
+      margin-right: -20px;
     }
   }
   &__desc {
@@ -66,26 +69,16 @@
     margin-top: 27px;
     padding-bottom: 291px;
   }
+  &-mobile__buttons {
+    margin-left: -20px;
+    margin-top: 28px;
+  }
   &__btn:nth-child(1) {
     margin-right: 30px;
   }
-  &-mobile__btn {
-    margin-top: 26px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    font-size: 29px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    box-sizing: border-box;
-    border-radius: 6px;
-    transition: all 0.3s linear;
-    text-align: center;
 
-    &:hover {
-      transition: all 0.3s linear;
-      color: #0dc78f;
-      border: 1px solid #0dc78f;
-    }
+  &-mobile__btn:nth-child(1) {
+    margin-right: 23px;
+    width: 50px;
   }
 }
