@@ -2,7 +2,7 @@
   padding-bottom: 219px;
 
   @media screen and (max-width: 575px) {
-    padding-bottom: 77px;
+    padding-bottom: 16px;
   }
 
   &__title {
@@ -16,7 +16,6 @@
       line-height: 33px;
       text-align: left;
       margin-top: 84px;
-      margin-bottom: 64px;
     }
   }
   &__subtitle {
@@ -29,14 +28,16 @@
 
   &__items {
     margin-left: 103px;
+    @media screen and (max-width: 575px) {
+      margin-left: 89px;
+    }
   }
   &__item {
     flex: 0 0 22%;
     margin-top: 71px;
 
     @media screen and (max-width: 575px) {
-      padding-left: 68px;
-      margin-top: 0;
+      margin-top: 56px;
       margin-right: 20px;
     }
 
